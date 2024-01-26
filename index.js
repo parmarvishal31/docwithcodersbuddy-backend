@@ -7,7 +7,7 @@ const PORT =process.env.PORT || 8000
 const app = express();
 
 app.get('/ping',(req,res)=>{
-    res.status(200).send('pong  {{ Welcome CodewithCoderBuddy - API }}')
+    res.status(200).send('<h1>Pong</h1>  {{ Welcome CodewithCoderBuddy - API }}')
 })
 
 app.listen(PORT, () => {
